@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="4" name="Dynamic-URI-Routing">
+    <Basepaths>/training</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1538574432390</CreatedAt>
+    <CreatedBy>sweta.mankar@fiserv.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>Dynamic-URI-Routing</DisplayName>
+    <LastModifiedAt>1538589670341</LastModifiedAt>
+    <LastModifiedBy>sweta.mankar@fiserv.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:a07fd999ec278698b24eea9943c381166728816bc10efbef4efaeedca73ed1b1db0cc6f24a6195ec867eee57eab3af01815f8e712a2131117d777a3b283518db</ManifestVersion>
+    <Policies>
+        <Policy>Extract-URI-Variables</Policy>
+        <Policy>Raise-Fault-1</Policy>
+        <Policy>RaiseFaultNotFound</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

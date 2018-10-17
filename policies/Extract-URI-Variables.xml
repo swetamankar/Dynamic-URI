@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables name="Extract-URI-Variables" async="false" continueOnError="false" enabled="true">
+    <DisplayName>Extract URI Variables</DisplayName>
+    <URIPath name="proxy.url">
+        <Pattern ignoreCase="true">/{firstlevel}/</Pattern>
+        <Pattern ignoreCase="true">/{firstlevel}/</Pattern>
+    </URIPath>
+</ExtractVariables>

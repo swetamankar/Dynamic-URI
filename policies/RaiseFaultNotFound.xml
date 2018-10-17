@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RaiseFault async="false" continueOnError="false" enabled="true" name="RaiseFaultNotFound">
+    <DisplayName>RaiseFaultNotFound</DisplayName>
+    <Properties/>
+    <FaultResponse>
+        <Set>
+            <Headers/>
+            <Payload contentType="text/plain">
+                   URI "{proxy.pathsuffix}" Not Match
+            </Payload>
+            <StatusCode>404</StatusCode>
+            <ReasonPhrase>URI Not Match</ReasonPhrase>
+        </Set>
+    </FaultResponse>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</RaiseFault>
